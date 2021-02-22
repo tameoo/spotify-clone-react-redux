@@ -1,0 +1,70 @@
+
+@keyframes ldio-2cushec3j6h {
+    0% { transform: translate(8px,42px) scale(0); }
+   25% { transform: translate(8px,42px) scale(0); }
+   50% { transform: translate(8px,42px) scale(1); }
+   75% { transform: translate(42px,42px) scale(1); }
+  100% { transform: translate(76px,42px) scale(1); }
+ }
+ @keyframes ldio-2cushec3j6h-r {
+    0% { transform: translate(76px,42px) scale(1); }
+  100% { transform: translate(76px,42px) scale(0); }
+ }
+ @keyframes ldio-2cushec3j6h-c {
+    0% { background: #ffffff }
+   25% { background: #898989 }
+   50% { background: #ffffff }
+   75% { background: #898989 }
+  100% { background: #ffffff }
+ }
+
+.spinner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90%;
+}
+
+ .ldio-2cushec3j6h div {
+   position: absolute;
+   width: 16px;
+   height: 16px;
+   border-radius: 50%;
+   transform: translate(42px,42px) scale(1);
+   background: #ffffff;
+   animation: ldio-2cushec3j6h 1.5384615384615383s infinite cubic-bezier(0,0.5,0.5,1);
+ }
+ .ldio-2cushec3j6h div:nth-child(1) {
+   background: #898989;
+   transform: translate(76px,42px) scale(1);
+   animation: ldio-2cushec3j6h-r 0.3846153846153846s infinite cubic-bezier(0,0.5,0.5,1), ldio-2cushec3j6h-c 1.5384615384615383s infinite step-start;
+ }.ldio-2cushec3j6h div:nth-child(2) {
+   animation-delay: -0.3846153846153846s;
+   background: #ffffff;
+ }.ldio-2cushec3j6h div:nth-child(3) {
+   animation-delay: -0.7692307692307692s;
+   background: #898989;
+ }.ldio-2cushec3j6h div:nth-child(4) {
+   animation-delay: -1.1538461538461537s;
+   background: #ffffff;
+ }.ldio-2cushec3j6h div:nth-child(5) {
+   animation-delay: -1.5384615384615383s;
+   background: #898989;
+ }
+ .loadingio-spinner-ellipsis-9h8ow0exmt {
+   width: 77px;
+   height: 77px;
+   display: inline-block;
+   overflow: hidden;
+ }
+ .ldio-2cushec3j6h {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   transform: translateZ(0) scale(0.77);
+   backface-visibility: hidden;
+   transform-origin: 0 0; /* see note above */
+ }
+ .ldio-2cushec3j6h div { box-sizing: content-box; }
+ 

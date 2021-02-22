@@ -1,0 +1,37 @@
+.category
+    padding: 20px
+    &-card
+        display: flex
+        flex-direction: column
+    &-context
+        color: #fff
+        margin-bottom: 30px
+    &-items
+        display: grid
+        grid-template-rows: 1fr
+        grid-template-columns: repeat(auto-fill,minmax(180px, 1fr)) 
+        grid-auto-rows: 1fr
+        grid-gap: 24px
+    &-item
+        position: relative
+        width: 100%
+        height: 200px
+        background: linear-gradient(0deg,transparent,#1DB954);
+        border-radius: 8px
+        overflow: hidden
+        cursor: pointer
+    &-header
+        overflow-wrap: break-word
+        padding: 15px
+        color: #fff
+        font-size: 20px
+        font-weight: 600
+    &-img
+        widht: 100px 
+        height: 100px
+        position: absolute
+        right: 0
+        bottom: 0
+        box-shadow: 0 2px 4px #000
+        transform: rotate(45deg) translate(18%,2%)
+        filter: brightness(100%)

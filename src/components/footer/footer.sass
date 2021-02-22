@@ -1,0 +1,77 @@
+.footer
+    position: fixed
+    bottom: 0
+    height: 65px
+    width: 100%
+    background-color: #282828
+    padding: 10px 15px
+    display: flex
+    justify-content: space-between 
+    color: white
+    i
+        font-weight: 300
+        transition: 0.2s color ease
+        cursor: pointer
+        &:hover
+            color: #fff
+    &-left
+        flex: 0.3
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        .music-img 
+            width: 50px
+        .music-header
+            padding-left: 10px
+            display: flex
+            flex-direction: column
+            a
+                color: #fff
+                text-decoration: none
+            .autor
+                color: gray
+                &:hover
+                    color: #fff
+        i
+            padding-left: 20px
+            color: gray
+    &-center
+        flex: 0.4
+        max-width: 250px
+        display: flex
+        justify-content: space-between
+        align-items: center
+        margin: 0 auto
+        color: gray
+        .fa-play-circle
+            font-weight: 600
+            font-size: 30px
+            color: #fff
+            transition: 0.2s ease
+            &:hover
+                transform: scale(1.2)
+        .fa-undo, .fa-random
+            color: rgb(30, 215, 96)
+    &-right
+        flex: 0.3
+        display: flex
+        justify-content: flex-end
+        align-items: center
+        color: gray
+        i
+            margin-right: 8px
+        .slider
+            width: 150px
+            height: 4px
+            background-color: rgb(30, 215, 96)
+            cursor: pointer
+            display: flex
+            justify-content: flex-end
+            align-items: center
+            .circle
+                width: 14px
+                height: 14px
+                background-color: #fff
+                border-radius: 100%
+  
+       

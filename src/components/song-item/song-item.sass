@@ -1,0 +1,49 @@
+.songitem
+    padding: 20px
+    ul
+        display: grid
+        grid-template-columns: 16px 4fr 4fr minmax(120px,1fr)
+        grid-template-rows: 56px
+        grid-auto-rows: 56px
+        grid-gap: 16px
+        list-style-type: none
+        padding: 0 15px
+        &:hover
+            background-color: #2a2a2a
+            .songitem-time > i
+                opacity: 1
+                cursor: pointer
+                transition: .2s color ease
+                &:hover
+                    color: #fff
+            li
+                color: #fff
+                i
+                    color: #7f7f7f
+            .songitem-subheader
+                color: #fff 
+                &:hover
+                    text-decoration: underline
+        li
+            display: flex
+            justify-content: flex-start
+            align-items: center
+            color: #7f7f7f 
+            img
+                width: 40px
+                height: 40px
+                margin-right: 10px
+    &-img-title
+        display: flex
+        justify-content: flex-start
+        align-items: center
+    &-subheader
+        color: #7f7f7f
+        text-decoration: none
+    &-header
+        color: #fff
+    &-time
+        display: flex
+        justify-content: space-between !important
+        i
+            opacity: 0

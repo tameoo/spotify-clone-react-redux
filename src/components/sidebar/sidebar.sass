@@ -1,0 +1,75 @@
+.sidebar
+    background-color: #040404
+    min-width: 230px
+    color: #fff
+    flex: 0.1
+    padding: 20px 20px 10px 20px
+    height: calc(100vh - 65px)
+    overflow-y: scroll
+    &::-webkit-scrollbar 
+        width: 8px
+    &::-webkit-scrollbar-track 
+        background: transparent
+    &::-webkit-scrollbar-thumb 
+        background: #888
+    &::-webkit-scrollbar-thumb:hover 
+        background: #555
+    .logo
+        display: flex
+        justify-content: flex-start
+        align-items: center
+        margin-bottom: 20px
+        &-img
+            font-size: 37px
+            margin-right: 5px
+        .sidebar-logo
+            font-size: 24px
+        .register
+            font-size: 6px
+            margin-left: 3px
+    .nav
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        align-items: flex-start
+        height: 120px
+        margin-bottom: 15px
+        &-item
+            display: flex
+            justify-content: center
+            align-items: center
+            cursor: pointer
+            &:hover .link
+                color: #fff
+            &:hover .icon
+                color: #fff
+            .link
+                color: #6b6b6b
+                font-size: 18px
+                font-weight: 500
+                text-decoration: none
+                transition: 200ms color ease-in
+            .icon
+                color: #6b6b6b
+                font-size: 18px
+                font-weight: 300
+                margin-right: 7px
+                transition: 200ms color ease-in
+           
+    .playlist-header
+        text-transform: uppercase
+        letter-spacing: 2px 
+    hr
+        border: 1px solid #282828
+        background-color: #282828
+        margin: 10px auto
+    .playlist-container
+        list-style-type: none
+    .playlist-item
+        letter-spacing: 2px
+        color: gray
+        text-transform: uppercase
+        cursor: pointer
+        transition: 0.2s color ease
+        &:hover
+            color: #fff

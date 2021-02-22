@@ -1,0 +1,31 @@
+.songlist
+    &-play
+        padding: 20px
+        i
+            font-size: 60px
+            color: #1ed760
+            cursor: pointer
+            transition: all 0.2s ease
+            &:hover
+                transform: scale(1.2)
+    &-items
+        &-header 
+            position: sticky
+            top: 70px
+            padding: 0 15px
+            background-color: #121212
+            ul
+                margin: 0
+                height: 32px
+                display: grid
+                grid-template: 1fr / 16px 4fr 4fr minmax(120px,1fr);
+                grid-gap: 16px
+                color: #7f7f7f
+                padding: 0 15px
+                border-bottom: 1px solid rgb(56, 56, 56)  
+                list-style-type: none
+                li
+                    font-weight: 500
+                .clock
+                    text-align: center
+            
